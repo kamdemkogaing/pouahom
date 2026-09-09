@@ -12,7 +12,7 @@ export default function SectionTitle({
         </p>
       )}
 
-      <h2 className="text-3xl md:text-5xl font-black tracking-tight text-[#171311]">
+      <h2 className="text-balance text-3xl font-black tracking-tight text-[#171311] md:text-5xl">
         {title}
       </h2>
 

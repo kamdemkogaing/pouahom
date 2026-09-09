@@ -13,11 +13,11 @@ export default function AboutPreview() {
       <Container>
         <div className="grid items-center gap-16 lg:grid-cols-2">
           <div className="relative">
-            <div className="aspect-[4/3] overflow-hidden rounded-[36px] bg-[#f8f1e3]">
+            <div className="aspect-4/3 overflow-hidden rounded-[36px] bg-[#899789]">
               <img
-                src="/images/logo/pouahom-logo.jpeg"
+                src="/images/logo/pouahom-logo.jpg"
                 alt="PouaHom"
-                className="h-full w-full object-cover"
+                className="h-full w-full object-contain"
               />
             </div>
 

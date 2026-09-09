@@ -34,7 +34,7 @@ export default function Gallery() {
                   src={image}
                   alt={`PouaHom ${index + 1}`}
                   onError={(event) => {
-                    event.currentTarget.src = "/images/logo/pouahom-logo.jpeg";
+                    event.currentTarget.src = "/images/logo/pouahom-logo.jpg";
                   }}
                   className="h-full w-full object-cover transition duration-500 hover:scale-105"
                 />

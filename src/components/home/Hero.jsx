@@ -51,24 +51,26 @@ export default function Hero() {
           </div>
 
           <div className="relative hidden lg:flex justify-center">
-            <div className="relative w-full max-w-md rounded-[40px] border border-white/10 bg-white/5 p-5 shadow-2xl backdrop-blur">
+            <div className="relative w-full max-w-md overflow-hidden rounded-[40px] border border-white/10 bg-white/5 p-5 shadow-2xl backdrop-blur">
               <img
-                src="/images/logo/pouahom-logo.jpeg"
+                src="/images/logo/pouahom-logo.jpg"
                 alt="PouaHom Deutschland"
-                className="w-full rounded-[30px]"
+                className="aspect-4/5 w-full rounded-[30px] object-cover"
               />
 
-              <div className="absolute -bottom-8 -left-8 rounded-3xl bg-white p-5 text-[#171311] shadow-xl">
+              <div className="absolute bottom-10 left-10 rounded-2xl bg-white p-4 text-[#171311] shadow-xl">
                 <div className="flex items-center gap-3">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#8f0d0d] text-white">
-                    <CalendarDays />
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#8f0d0d] text-white">
+                    <CalendarDays size={21} />
                   </div>
 
                   <div>
-                    <p className="text-xs font-bold uppercase text-neutral-400">
+                    <p className="text-[11px] font-bold uppercase tracking-wide text-neutral-400">
                       Next
                     </p>
-                    <p className="font-black">12.09.2026</p>
+                    <p className="whitespace-nowrap text-lg font-black leading-tight">
+                      12.09.2026
+                    </p>
                   </div>
                 </div>
               </div>

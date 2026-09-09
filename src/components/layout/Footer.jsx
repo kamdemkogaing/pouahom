@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <img
-              src="/images/logo/pouahom-logo.jpeg"
+              src="/images/logo/pouahom-logo.jpg"
               alt="PouaHom"
               className="mb-6 h-16 w-auto"
             />

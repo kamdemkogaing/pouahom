@@ -3,14 +3,15 @@ import { ArrowUpRight, CalendarDays } from "lucide-react";
 export default function NewsCard({ item }) {
   return (
     <article className="group overflow-hidden rounded-[28px] border border-neutral-100 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
-      <div className="aspect-[16/10] overflow-hidden bg-[#f8f1e3]">
+      <div className="aspect-16/10 overflow-hidden bg-[#899789]">
         <img
           src={item.image}
           alt={item.title}
           onError={(event) => {
-            event.currentTarget.src = "/images/logo/pouahom-logo.jpeg";
+            event.currentTarget.onerror = null;
+            event.currentTarget.src = "/images/logo/pouahom-logo.jpg";
           }}
-          className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+          className="h-full w-full object-contain px-8 py-3 transition duration-500 group-hover:scale-105"
         />
       </div>
 
