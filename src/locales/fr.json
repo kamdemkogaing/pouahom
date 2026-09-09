@@ -29,6 +29,32 @@
     "more": "En savoir plus"
   },
 
+  "board": {
+    "eyebrow": "Organisation",
+    "title": "Notre Bureau",
+    "description": "Decouvrez les femmes et les hommes qui composent le Bureau de PouaHom Deutschland e. V.",
+    "memberLabel": "Bureau",
+    "viewProfile": "Voir le profil",
+    "closeModal": "Fermer le profil",
+    "profileTitle": "Profil",
+    "roles": {
+      "president": "Presidente",
+      "vicePresident": "Vice-president",
+      "secretary": "Secretaire",
+      "treasurer": "Tresorier",
+      "communication": "Communication",
+      "events": "Evenements"
+    },
+    "members": {
+      "member1": "Coordonne les orientations du Bureau et represente l'association dans ses relations externes.",
+      "member2": "Soutient la presidente dans les projets associatifs et suit leur mise en oeuvre operationnelle.",
+      "member3": "Assure les comptes rendus, l'organisation interne et le suivi des documents de l'association.",
+      "member4": "Supervise le budget, le suivi financier et la transparence des ressources de l'association.",
+      "member5": "Pilote la communication de l'association sur le site, les reseaux sociaux et les supports publics.",
+      "member6": "Organise les reunions et les evenements afin de renforcer les liens au sein de la communaute."
+    }
+  },
+
   "values": {
     "title": "Ce qui nous rassemble",
     "culture": "Culture",

@@ -9,6 +9,8 @@ export default function Footer() {
   const mapsRouteUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
     t("meeting.location"),
   )}`;
+  const footerLinkClass =
+    "group inline-flex w-fit items-center text-white/72 transition duration-300 ease-out hover:-translate-y-0.5 hover:text-white";
 
   return (
     <footer className="relative overflow-hidden bg-[#120f0f] text-white">
@@ -42,17 +44,21 @@ export default function Footer() {
             </h3>
 
             <div className="flex flex-col gap-3 text-[0.96rem] text-white/72">
-              <Link className="transition hover:text-white" to="/">
-                {t("nav.home")}
+              <Link className={footerLinkClass} to="/">
+                <span>{t("nav.home")}</span>
+                <span className="ml-0 h-px w-0 bg-[#edc568] transition-all duration-300 group-hover:ml-2 group-hover:w-3" />
               </Link>
-              <Link className="transition hover:text-white" to="/activities">
-                {t("nav.activities")}
+              <Link className={footerLinkClass} to="/activities">
+                <span>{t("nav.activities")}</span>
+                <span className="ml-0 h-px w-0 bg-[#edc568] transition-all duration-300 group-hover:ml-2 group-hover:w-3" />
               </Link>
-              <Link className="transition hover:text-white" to="/news">
-                {t("nav.news")}
+              <Link className={footerLinkClass} to="/news">
+                <span>{t("nav.news")}</span>
+                <span className="ml-0 h-px w-0 bg-[#edc568] transition-all duration-300 group-hover:ml-2 group-hover:w-3" />
               </Link>
-              <Link className="transition hover:text-white" to="/gallery">
-                {t("nav.gallery")}
+              <Link className={footerLinkClass} to="/gallery">
+                <span>{t("nav.gallery")}</span>
+                <span className="ml-0 h-px w-0 bg-[#edc568] transition-all duration-300 group-hover:ml-2 group-hover:w-3" />
               </Link>
             </div>
           </div>
@@ -63,20 +69,24 @@ export default function Footer() {
             </h3>
 
             <div className="flex flex-col gap-3 text-[0.96rem] text-white/72">
-              <Link className="transition hover:text-white" to="/association">
-                {t("nav.association")}
+              <Link className={footerLinkClass} to="/association">
+                <span>{t("nav.association")}</span>
+                <span className="ml-0 h-px w-0 bg-[#edc568] transition-all duration-300 group-hover:ml-2 group-hover:w-3" />
               </Link>
 
-              <Link className="transition hover:text-white" to="/history">
-                {t("nav.history")}
+              <Link className={footerLinkClass} to="/history">
+                <span>{t("nav.history")}</span>
+                <span className="ml-0 h-px w-0 bg-[#edc568] transition-all duration-300 group-hover:ml-2 group-hover:w-3" />
               </Link>
 
-              <Link className="transition hover:text-white" to="/board">
-                {t("nav.board")}
+              <Link className={footerLinkClass} to="/board">
+                <span>{t("nav.board")}</span>
+                <span className="ml-0 h-px w-0 bg-[#edc568] transition-all duration-300 group-hover:ml-2 group-hover:w-3" />
               </Link>
 
-              <Link className="transition hover:text-white" to="/documents">
-                {t("nav.documents")}
+              <Link className={footerLinkClass} to="/documents">
+                <span>{t("nav.documents")}</span>
+                <span className="ml-0 h-px w-0 bg-[#edc568] transition-all duration-300 group-hover:ml-2 group-hover:w-3" />
               </Link>
             </div>
           </div>
@@ -89,9 +99,12 @@ export default function Footer() {
             <div className="space-y-4 text-[0.96rem] text-white/72">
               <a
                 href={`mailto:${t("footer.email")}`}
-                className="inline-flex items-center gap-3 transition hover:text-white"
+                className="group inline-flex items-center gap-3 transition duration-300 hover:text-white"
               >
-                <Mail size={18} />
+                <Mail
+                  size={18}
+                  className="transition duration-300 group-hover:-translate-y-0.5 group-hover:text-[#edc568]"
+                />
                 {t("footer.email")}
               </a>
 
@@ -109,12 +122,12 @@ export default function Footer() {
                 href={mapsRouteUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="group block rounded-2xl border border-white/14 bg-white/4 p-4 transition hover:border-[#edc568]/55 hover:bg-white/8"
+                className="group block rounded-2xl border border-white/14 bg-white/4 p-4 transition duration-300 ease-out hover:-translate-y-1 hover:border-[#edc568]/55 hover:bg-white/8 hover:shadow-[0_14px_35px_-20px_rgba(237,197,104,0.75)]"
               >
                 <div className="flex items-start gap-3">
                   <MapPin
                     size={18}
-                    className="mt-0.5 shrink-0 text-[#edc568]"
+                    className="mt-0.5 shrink-0 text-[#edc568] transition duration-300 group-hover:-translate-y-0.5"
                   />
 
                   <div>
@@ -125,7 +138,7 @@ export default function Footer() {
                       {t("footer.route")}
                       <ArrowUpRight
                         size={16}
-                        className="transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                        className="transition duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"
                       />
                     </p>
                   </div>
@@ -142,10 +155,10 @@ export default function Footer() {
           </p>
 
           <div className="flex gap-5">
-            <Link className="transition hover:text-white" to="/impressum">
+            <Link className={footerLinkClass} to="/impressum">
               Impressum
             </Link>
-            <Link className="transition hover:text-white" to="/datenschutz">
+            <Link className={footerLinkClass} to="/datenschutz">
               Datenschutz
             </Link>
           </div>
@@ -164,7 +177,7 @@ function Social({ label }) {
     <button
       type="button"
       aria-label={label === "ig" ? "Instagram" : "Facebook"}
-      className="flex h-11 w-11 items-center justify-center rounded-full border border-white/12 bg-white/8 text-sm font-black uppercase text-white/90 transition hover:-translate-y-0.5 hover:border-[#edc568]/55 hover:bg-[#8f0d0d]"
+      className="flex h-11 w-11 items-center justify-center rounded-full border border-white/12 bg-white/8 text-sm font-black uppercase text-white/90 transition duration-300 ease-out hover:-translate-y-1 hover:scale-105 hover:border-[#edc568]/55 hover:bg-[#8f0d0d] hover:shadow-[0_12px_30px_-16px_rgba(159,16,16,0.95)]"
     >
       {label}
     </button>

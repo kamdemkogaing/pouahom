@@ -29,6 +29,32 @@
     "more": "Learn more"
   },
 
+  "board": {
+    "eyebrow": "Organization",
+    "title": "Our Board",
+    "description": "Meet the women and men who make up the Board of PouaHom Deutschland e. V.",
+    "memberLabel": "Board",
+    "viewProfile": "View profile",
+    "closeModal": "Close profile",
+    "profileTitle": "Profile",
+    "roles": {
+      "president": "President",
+      "vicePresident": "Vice President",
+      "secretary": "Secretary",
+      "treasurer": "Treasurer",
+      "communication": "Communications",
+      "events": "Events"
+    },
+    "members": {
+      "member1": "Leads the board, coordinates strategic direction and represents the association externally.",
+      "member2": "Supports the president in key initiatives and helps drive operational delivery across teams.",
+      "member3": "Manages meeting records, internal coordination and board documentation processes.",
+      "member4": "Oversees budgeting, financial planning and transparent reporting for association activities.",
+      "member5": "Leads communication across the website, social channels and public-facing content.",
+      "member6": "Plans meetings and events to strengthen member participation and community connections."
+    }
+  },
+
   "values": {
     "title": "What brings us together",
     "culture": "Culture",
