@@ -81,6 +81,38 @@
     "all": "Toutes les actualités"
   },
 
+  "documents": {
+    "eyebrow": "Association",
+    "title": "Documents officiels",
+    "description": "Consultez les documents déjà publiés. De nouveaux contenus seront ajoutés progressivement.",
+    "consult": "Consulter",
+    "statusAvailable": "Disponible",
+    "statusSoon": "Bientôt",
+    "soonButton": "Bientôt disponible",
+    "availableLabel": "Documents publiés",
+    "comingSoonLabel": "À venir",
+    "updateTitle": "Mise à jour continue",
+    "updateText": "Cette section évolue régulièrement. Revenez bientôt pour découvrir les prochains documents de l'association.",
+    "items": {
+      "statutes": {
+        "title": "Statuts de l'association",
+        "description": "Statuts officiels de PouaHom Deutschland e. V."
+      },
+      "rules": {
+        "title": "Règlement intérieur",
+        "description": "Règlement intérieur de PouaHom Deutschland e. V."
+      },
+      "minutes": {
+        "title": "Procès-verbal de la dernière assemblée",
+        "description": "Compte rendu de la dernière assemblée générale, bientôt disponible."
+      },
+      "membership": {
+        "title": "Formulaire d'adhésion",
+        "description": "Le formulaire d'adhésion mis à jour sera publié prochainement."
+      }
+    }
+  },
+
   "gallery": {
     "small": "Nos moments",
     "title": "Galerie PouaHom",

@@ -81,6 +81,38 @@
     "all": "Alle Neuigkeiten"
   },
 
+  "documents": {
+    "eyebrow": "Verein",
+    "title": "Offizielle Dokumente",
+    "description": "Sieh dir bereits veröffentlichte Dokumente an. Weitere Inhalte werden schrittweise ergänzt.",
+    "consult": "Ansehen",
+    "statusAvailable": "Verfügbar",
+    "statusSoon": "Demnächst",
+    "soonButton": "Bald verfügbar",
+    "availableLabel": "Veröffentlichte Dokumente",
+    "comingSoonLabel": "In Vorbereitung",
+    "updateTitle": "Laufende Aktualisierung",
+    "updateText": "Dieser Bereich wird fortlaufend erweitert. Schau bald wieder vorbei für neue Vereinsdokumente.",
+    "items": {
+      "statutes": {
+        "title": "Satzung des Vereins",
+        "description": "Offizielle Satzung von PouaHom Deutschland e. V."
+      },
+      "rules": {
+        "title": "Geschäftsordnung",
+        "description": "Geschäftsordnung von PouaHom Deutschland e. V."
+      },
+      "minutes": {
+        "title": "Protokoll der letzten Mitgliederversammlung",
+        "description": "Das Protokoll der letzten Mitgliederversammlung wird in Kürze veröffentlicht."
+      },
+      "membership": {
+        "title": "Mitgliedsantrag",
+        "description": "Der aktualisierte Mitgliedsantrag wird demnächst bereitgestellt."
+      }
+    }
+  },
+
   "gallery": {
     "small": "Unsere Momente",
     "title": "PouaHom Galerie",
