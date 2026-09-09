@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "association": "Verein",
+    "history": "Unsere Geschichte",
+    "board": "Vorstand",
+    "activities": "Aktivitäten",
+    "news": "Aktuelles",
+    "meetings": "Treffen",
+    "gallery": "Galerie",
+    "documents": "Dokumente",
+    "contact": "Kontakt"
+  },
+
+  "hero": {
+    "eyebrow": "Kultur · Gemeinschaft · Erbe",
+    "title1": "Unsere Wurzeln.",
+    "title2": "Unsere Stärke.",
+    "title3": "Unsere Zukunft.",
+    "description": "Gemeinsam bewahren wir unser kulturelles Erbe, stärken unsere Gemeinschaft und gestalten unsere Zukunft.",
+    "discover": "PouaHom entdecken",
+    "activities": "Unsere Aktivitäten"
+  },
+
+  "about": {
+    "small": "Unser Verein",
+    "title": "Willkommen bei PouaHom Deutschland e. V.",
+    "text": "PouaHom Deutschland e. V. verbindet unsere Gemeinschaft durch Kultur, Tradition, Solidarität und gemeinsame Projekte.",
+    "more": "Mehr erfahren"
+  },
+
+  "values": {
+    "title": "Was uns verbindet",
+    "culture": "Kultur",
+    "cultureText": "Unser kulturelles Erbe bewahren, fördern und weitergeben.",
+    "community": "Gemeinschaft",
+    "communityText": "Starke Verbindungen zwischen unseren Mitgliedern und Generationen schaffen.",
+    "future": "Zukunft",
+    "futureText": "Gemeinsam verantwortungsvolle und nachhaltige Projekte gestalten."
+  },
+
+  "meeting": {
+    "small": "Nächster Termin",
+    "title": "Treffen der Bahams",
+    "date": "Samstag, 12. September 2026",
+    "time": "18:00 Uhr",
+    "location": "Wilhelmstraße 47, 76137 Karlsruhe",
+    "program": "Alle Treffen"
+  },
+
+  "news": {
+    "small": "Vereinsleben",
+    "title": "Aktuelles & Aktivitäten",
+    "description": "Entdecke Neuigkeiten und Aktivitäten von PouaHom.",
+    "all": "Alle Neuigkeiten"
+  },
+
+  "gallery": {
+    "small": "Unsere Momente",
+    "title": "PouaHom Galerie",
+    "description": "Einblicke in das Leben unseres Vereins.",
+    "all": "Gesamte Galerie"
+  },
+
+  "cta": {
+    "title": "Gemeinsam gestalten wir die Zukunft.",
+    "text": "Entdecke PouaHom Deutschland e. V. und werde Teil unserer Gemeinschaft.",
+    "button": "Kontakt aufnehmen"
+  },
+
+  "footer": {
+    "description": "Kultur · Gemeinschaft · Erbe",
+    "navigation": "Navigation",
+    "association": "Verein",
+    "contact": "Kontakt",
+    "legal": "Rechtliches",
+    "rights": "Alle Rechte vorbehalten.",
+    "tomorrow": "Gemeinsam für morgen"
+  }
+}

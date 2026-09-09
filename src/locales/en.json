@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Home",
+    "association": "Association",
+    "history": "Our History",
+    "board": "Board",
+    "activities": "Activities",
+    "news": "News",
+    "meetings": "Meetings",
+    "gallery": "Gallery",
+    "documents": "Documents",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "eyebrow": "Culture · Community · Heritage",
+    "title1": "Our Roots.",
+    "title2": "Our Strength.",
+    "title3": "Our Future.",
+    "description": "Together, we preserve our heritage, strengthen our community and build our future.",
+    "discover": "Discover PouaHom",
+    "activities": "Our activities"
+  },
+
+  "about": {
+    "small": "Our association",
+    "title": "Welcome to PouaHom Deutschland e. V.",
+    "text": "PouaHom Deutschland e. V. brings our community together through culture, heritage, solidarity and shared projects.",
+    "more": "Learn more"
+  },
+
+  "values": {
+    "title": "What brings us together",
+    "culture": "Culture",
+    "cultureText": "Preserving, promoting and passing on our cultural heritage.",
+    "community": "Community",
+    "communityText": "Building strong connections between our members and generations.",
+    "future": "Future",
+    "futureText": "Building responsible and sustainable projects together."
+  },
+
+  "meeting": {
+    "small": "Next meeting",
+    "title": "Bahams Meeting",
+    "date": "Saturday, September 12, 2026",
+    "time": "6:00 PM",
+    "location": "Wilhelmstraße 47, 76137 Karlsruhe",
+    "program": "View meetings"
+  },
+
+  "news": {
+    "small": "Association life",
+    "title": "News & Activities",
+    "description": "Discover the latest PouaHom news and activities.",
+    "all": "All news"
+  },
+
+  "gallery": {
+    "small": "Our moments",
+    "title": "PouaHom Gallery",
+    "description": "Discover moments from the life of our association.",
+    "all": "View gallery"
+  },
+
+  "cta": {
+    "title": "Let's build the future together.",
+    "text": "Discover PouaHom Deutschland e. V. and become part of our community.",
+    "button": "Contact us"
+  },
+
+  "footer": {
+    "description": "Culture · Community · Heritage",
+    "navigation": "Navigation",
+    "association": "Association",
+    "contact": "Contact",
+    "legal": "Legal",
+    "rights": "All rights reserved.",
+    "tomorrow": "Together for tomorrow"
+  }
+}

@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --pouahom-red: #8f0d0d;
+  --pouahom-red-dark: #510707;
+  --pouahom-red-deep: #2f0505;
+
+  --pouahom-gold: #d6a43b;
+  --pouahom-gold-light: #edc568;
+
+  --pouahom-cream: #f8f1e3;
+  --pouahom-dark: #171311;
+  --pouahom-gray: #6b6b6b;
+
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #ffffff;
+  color: var(--pouahom-dark);
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+::selection {
+  background: var(--pouahom-gold);
+  color: var(--pouahom-dark);
+}
+
+.pouahom-container {
+  width: min(1180px, calc(100% - 40px));
+  margin-inline: auto;
+}
+
+.section-padding {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+@media (max-width: 768px) {
+  .pouahom-container {
+    width: min(100% - 32px, 1180px);
+  }
+
+  .section-padding {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}

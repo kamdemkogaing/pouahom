@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "association": "Association",
+    "history": "Notre histoire",
+    "board": "Bureau",
+    "activities": "Activités",
+    "news": "Actualités",
+    "meetings": "Réunions",
+    "gallery": "Galerie",
+    "documents": "Documents",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "eyebrow": "Culture · Communauté · Patrimoine",
+    "title1": "Nos Racines.",
+    "title2": "Notre Force.",
+    "title3": "Notre Avenir.",
+    "description": "Ensemble, nous préservons notre héritage, renforçons notre communauté et construisons l'avenir.",
+    "discover": "Découvrir PouaHom",
+    "activities": "Nos activités"
+  },
+
+  "about": {
+    "small": "Notre association",
+    "title": "Bienvenue chez PouaHom Deutschland e. V.",
+    "text": "PouaHom Deutschland e. V. rassemble les membres de notre communauté autour de notre culture, de notre patrimoine, de la solidarité et de projets communs.",
+    "more": "En savoir plus"
+  },
+
+  "values": {
+    "title": "Ce qui nous rassemble",
+    "culture": "Culture",
+    "cultureText": "Préserver, valoriser et transmettre notre patrimoine culturel.",
+    "community": "Communauté",
+    "communityText": "Créer des liens solides entre nos membres et les générations.",
+    "future": "Avenir",
+    "futureText": "Construire ensemble des projets responsables et durables."
+  },
+
+  "meeting": {
+    "small": "Prochain rendez-vous",
+    "title": "Réunion des Bahams",
+    "date": "Samedi 12 septembre 2026",
+    "time": "18 h 00",
+    "location": "Wilhelmstraße 47, 76137 Karlsruhe",
+    "program": "Voir les réunions"
+  },
+
+  "news": {
+    "small": "Vie associative",
+    "title": "Actualités & activités",
+    "description": "Découvrez les dernières informations et activités de PouaHom.",
+    "all": "Toutes les actualités"
+  },
+
+  "gallery": {
+    "small": "Nos moments",
+    "title": "Galerie PouaHom",
+    "description": "Quelques moments de la vie de notre association.",
+    "all": "Voir toute la galerie"
+  },
+
+  "cta": {
+    "title": "Construisons l'avenir ensemble.",
+    "text": "Découvrez PouaHom Deutschland e. V. et participez à la vie de notre communauté.",
+    "button": "Nous contacter"
+  },
+
+  "footer": {
+    "description": "Culture · Communauté · Patrimoine",
+    "navigation": "Navigation",
+    "association": "Association",
+    "contact": "Contact",
+    "legal": "Informations légales",
+    "rights": "Tous droits réservés.",
+    "tomorrow": "Ensemble pour demain"
+  }
+}
