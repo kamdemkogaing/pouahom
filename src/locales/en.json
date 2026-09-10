@@ -93,16 +93,18 @@
       "vicePresident": "Vice President",
       "secretary": "Secretary",
       "treasurer": "Treasurer",
-      "communication": "Communications",
-      "events": "Events"
+      "womensRepresentative": "Women's Representative",
+      "auditor": "Auditor",
+      "supervisor": "Supervisor"
     },
     "members": {
       "member1": "Leads the board, coordinates strategic direction and represents the association externally.",
       "member2": "Supports the president in key initiatives and helps drive operational delivery across teams.",
       "member3": "Manages meeting records, internal coordination and board documentation processes.",
       "member4": "Oversees budgeting, financial planning and transparent reporting for association activities.",
-      "member5": "Leads communication across the website, social channels and public-facing content.",
-      "member6": "Plans meetings and events to strengthen member participation and community connections."
+      "member5": "Represents the women of the association, advocates for their interests and supports their participation in association life.",
+      "member6": "Reviews the accounts and verifies the proper financial management of the association's resources.",
+      "member7": "Ensures compliance with the association's statutes and decisions, and brings matters requiring attention to the board."
     }
   },
 

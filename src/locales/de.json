@@ -93,16 +93,18 @@
       "vicePresident": "Stellvertretender Vorsitzender",
       "secretary": "Schriftfuehrerin",
       "treasurer": "Schatzmeister",
-      "communication": "Kommunikation",
-      "events": "Veranstaltungen"
+      "womensRepresentative": "Frauenbeauftragte",
+      "auditor": "Kassenpruefer",
+      "supervisor": "Aufsichtsperson"
     },
     "members": {
       "member1": "Leitet den Vorstand, koordiniert strategische Entscheidungen und vertritt den Verein nach aussen.",
       "member2": "Unterstuetzt die Vorsitzende bei Vereinsprojekten und begleitet die operative Umsetzung im Team.",
       "member3": "Verantwortet Protokolle, interne Kommunikation und die Struktur der Vereinsdokumentation.",
       "member4": "Betreut Budget, Ausgabenplanung und transparente Finanzprozesse fuer die Vereinsarbeit.",
-      "member5": "Steuert Auftritt und Kommunikation des Vereins auf Website, Social Media und bei Publikationen.",
-      "member6": "Plant und organisiert Treffen, Kulturprogramme und Community-Events gemeinsam mit den Mitgliedern."
+      "member5": "Vertritt die Frauen im Verein, setzt sich fuer ihre Interessen ein und foerdert ihre Beteiligung am Vereinsleben.",
+      "member6": "Prueft die Konten und ueberwacht die ordnungsgemaesse finanzielle Verwaltung der Vereinsmittel.",
+      "member7": "Achtet auf die Einhaltung der Satzung und der Vereinsbeschluesse und weist den Vorstand auf wichtige Punkte hin."
     }
   },
 
