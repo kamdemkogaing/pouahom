@@ -1,4 +1,5 @@
-import { Route, Routes } from "react-router-dom";
+import { useEffect } from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
 
 import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
@@ -17,6 +18,12 @@ import Meetings from "./pages/Meetings";
 import News from "./pages/News";
 
 export default function App() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }, [pathname]);
+
   return (
     <>
       <Header />

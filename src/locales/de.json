@@ -12,6 +12,43 @@
     "contact": "Kontakt"
   },
 
+  "history": {
+    "eyebrow": "Unsere Identitaet",
+    "title": "Unsere Geschichte",
+    "description": "Seit 2021 verfolgt PouaHom Deutschland e. V. ein gemeinsames Ziel: unsere Kultur bewahren, unsere Gemeinschaft verbinden und gemeinsam die Zukunft gestalten.",
+    "timelineLabel": "2021 — heute",
+    "timelineTitle": "Eine Geschichte, die weitergeschrieben wird",
+    "events": {
+      "2021": {
+        "title": "Die Gruendung des Vereins",
+        "text": "PouaHom Deutschland e. V. wird in Karlsruhe gegruendet, um die Baham-Kultur in Deutschland zu bewahren, zu foerdern und weiterzugeben."
+      },
+      "2023": {
+        "title": "Kultur gemeinsam erleben",
+        "text": "Der Verein schafft Begegnungen und gemeinsame Momente, die unsere Kultur lebendig und erfahrbar machen."
+      },
+      "2024": {
+        "title": "Eine staerkere Gemeinschaft",
+        "text": "Die Mitglieder engagieren sich weiterhin bei Treffen, gemeinsamen Projekten und der Weitergabe von Wissen zwischen den Generationen."
+      },
+      "2025": {
+        "title": "Gemeinsam wachsen",
+        "text": "PouaHom entwickelt seine Vereinsstrukturen weiter und staerkt ein offenes, solidarisches und aktives Vereinsleben."
+      },
+      "2026": {
+        "title": "Blick nach vorn",
+        "text": "Heute geht der Verein seinen Weg mit neuen Projekten, neuen Begegnungen und derselben gemeinsamen Energie weiter."
+      }
+    },
+    "eventCard": {
+      "label": "Ein besonderer Moment",
+      "title": "Grill Party 2023",
+      "text": "Ein geselliges Event im Zeichen des Austauschs, der Begegnung und einer guten gemeinsamen Zeit."
+    },
+    "todayLabel": "Heute",
+    "todayText": "Unsere Geschichte endet nicht hier. Jedes Mitglied, jede Begegnung und jedes Projekt schreibt eine neue Seite der PouaHom-Geschichte."
+  },
+
   "hero": {
     "eyebrow": "Kultur · Gemeinschaft · Erbe",
     "title1": "Unsere Wurzeln.",

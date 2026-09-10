@@ -1,4 +1,10 @@
-import { BriefcaseBusiness, Mail, X } from "lucide-react";
+import {
+  ArrowUpRight,
+  BriefcaseBusiness,
+  Mail,
+  ShieldCheck,
+  X,
+} from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -58,31 +64,46 @@ export default function Board() {
 
   return (
     <>
-      <section className="bg-linear-to-br from-[#4b0808] via-[#7c0d0d] to-[#8f0d0d] py-24 text-white">
+      <section className="relative overflow-hidden bg-linear-to-br from-[#2f0505] via-[#720b0b] to-[#a31919] py-24 text-white md:py-32">
+        <div className="pointer-events-none absolute -right-24 top-1/2 h-72 w-72 -translate-y-1/2 rounded-full border border-[#edc568]/20 bg-[#edc568]/10 blur-3xl" />
         <Container>
-          <p className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-[#edc568] md:text-sm">
-            {t("board.eyebrow")}
-          </p>
-
-          <h1 className="max-w-4xl text-4xl font-black md:text-6xl">
-            {t("board.title")}
-          </h1>
+          <div className="max-w-3xl">
+            <p className="mb-5 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.3em] text-[#edc568] md:text-sm">
+              <ShieldCheck size={16} />
+              {t("board.eyebrow")}
+            </p>
+            <h1 className="max-w-4xl text-4xl font-black leading-[1.05] tracking-tight md:text-7xl">
+              {t("board.title")}
+            </h1>
+            <p className="mt-6 max-w-2xl text-base leading-8 text-white/75 md:text-lg">
+              {t("board.description")}
+            </p>
+          </div>
         </Container>
       </section>
 
-      <section className="section-padding bg-[#faf9f7]">
+      <section className="section-padding bg-[#f7f5f1]">
         <Container>
-          <div className="mb-12 rounded-[28px] border border-neutral-200/80 bg-white p-6 shadow-[0_20px_60px_-48px_rgba(0,0,0,0.6)] md:p-8">
-            <p className="max-w-3xl text-base leading-8 text-neutral-600 md:text-lg">
-              {t("board.description")}
+          <div className="mb-12 flex flex-col gap-5 border-b border-[#171311]/12 pb-8 md:flex-row md:items-end md:justify-between">
+            <div>
+              <p className="text-xs font-bold uppercase tracking-[0.28em] text-[#8f0d0d]">
+                {t("board.memberLabel")}
+              </p>
+              <h2 className="mt-3 max-w-xl text-2xl font-black tracking-tight text-[#171311] md:text-4xl">
+                {t("board.title")}
+              </h2>
+            </div>
+            <p className="max-w-xs text-sm leading-6 text-neutral-500">
+              {boardMembers.length.toString().padStart(2, "0")}{" "}
+              {t("board.memberLabel")}
             </p>
           </div>
 
           <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
-            {boardMembers.map((member) => (
+            {boardMembers.map((member, index) => (
               <article
                 key={member.id}
-                className="group overflow-hidden rounded-[30px] border border-neutral-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+                className="group overflow-hidden rounded-[26px] border border-neutral-200/90 bg-white shadow-[0_12px_35px_-28px_rgba(23,19,17,0.65)] transition duration-500 hover:-translate-y-2 hover:border-[#8f0d0d]/25 hover:shadow-[0_24px_55px_-28px_rgba(78,8,8,0.5)]"
               >
                 <div className="relative overflow-hidden bg-[#e9ece4]">
                   <img
@@ -99,9 +120,12 @@ export default function Board() {
                     <BriefcaseBusiness size={13} />
                     {t("board.memberLabel")}
                   </span>
+                  <span className="absolute bottom-4 right-4 text-5xl font-black leading-none text-white/70 drop-shadow-sm">
+                    {(index + 1).toString().padStart(2, "0")}
+                  </span>
                 </div>
 
-                <div className="p-6">
+                <div className="p-6 md:p-7">
                   <h2>
                     <button
                       type="button"
@@ -112,15 +136,19 @@ export default function Board() {
                       <span className="h-px w-0 bg-[#8f0d0d] transition-all duration-300 group-hover:w-8" />
                     </button>
                   </h2>
-                  <p className="mt-2 text-[0.98rem] font-medium text-neutral-600">
+                  <p className="mt-2 text-[0.98rem] font-semibold text-[#8f0d0d]">
                     {t(member.roleKey)}
                   </p>
                   <button
                     type="button"
                     onClick={() => openModal(member)}
-                    className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-[#8f0d0d] transition hover:text-[#6e0a0a]"
+                    className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-[#171311] transition hover:text-[#8f0d0d]"
                   >
                     {t("board.viewProfile")}
+                    <ArrowUpRight
+                      size={16}
+                      className="transition duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"
+                    />
                   </button>
                 </div>
               </article>

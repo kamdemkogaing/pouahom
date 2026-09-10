@@ -12,6 +12,43 @@
     "contact": "Contact"
   },
 
+  "history": {
+    "eyebrow": "Notre identité",
+    "title": "Notre histoire",
+    "description": "Depuis 2021, PouaHom Deutschland e. V. avance avec une même ambition : préserver notre culture, rassembler notre communauté et construire l'avenir ensemble.",
+    "timelineLabel": "2021 — aujourd'hui",
+    "timelineTitle": "Une histoire qui continue de s'écrire",
+    "events": {
+      "2021": {
+        "title": "La naissance de l'association",
+        "text": "PouaHom Deutschland e. V. est créée à Karlsruhe avec la volonté de préserver, promouvoir et transmettre la culture Baham en Allemagne."
+      },
+      "2023": {
+        "title": "Faire vivre la culture",
+        "text": "L'association crée des occasions de rencontre et de partage pour faire vivre la culture au-delà des mots."
+      },
+      "2024": {
+        "title": "Une communauté qui se renforce",
+        "text": "Les membres poursuivent leur engagement autour de rencontres, de projets communs et de la transmission entre générations."
+      },
+      "2025": {
+        "title": "Grandir ensemble",
+        "text": "PouaHom consolide son organisation et continue de développer une vie associative ouverte, solidaire et active."
+      },
+      "2026": {
+        "title": "Regarder vers l'avenir",
+        "text": "Aujourd'hui, l'association poursuit son chemin avec de nouveaux projets, de nouvelles rencontres et la même énergie collective."
+      }
+    },
+    "eventCard": {
+      "label": "Un moment marquant",
+      "title": "Grill Party 2023",
+      "text": "Un événement convivial placé sous le signe du partage, de la rencontre et de la bonne humeur."
+    },
+    "todayLabel": "Aujourd'hui",
+    "todayText": "Notre histoire ne s'arrête pas ici. Chaque membre, chaque rencontre et chaque projet ajoute une nouvelle page à l'aventure PouaHom."
+  },
+
   "hero": {
     "eyebrow": "Culture · Communauté · Patrimoine",
     "title1": "Nos Racines.",
