@@ -29,6 +29,57 @@
     "more": "Mehr erfahren"
   },
 
+  "aboutPage": {
+    "eyebrow": "Unser Verein",
+    "orgName": "PouaHom Deutschland e. V.",
+    "tagline": "Unsere Kultur bewahren. Generationen verbinden. Unser Erbe weitergeben.",
+    "introP1": "PouaHom Deutschland e. V. ist ein gemeinnütziger Verein, der 2021 gegründet wurde und seinen Sitz in Karlsruhe, Deutschland hat.",
+    "introP2": "Unser Verein entstand aus einem gemeinsamen Anliegen: die Baham-Kultur zu bewahren, zu fördern und weiterzugeben und zugleich einen Raum für Begegnung, Austausch und Solidarität für alle zu schaffen, die sich ihr verbunden fühlen.",
+    "identityTitle": "Unsere Identität",
+    "identityP1": "PouaHom Deutschland e. V. bringt Frauen und Männer zusammen, die mit der Baham-Kultur verbunden sind oder sie kennenlernen, unterstützen und zu ihrer Ausstrahlung beitragen möchten.",
+    "identityP2": "Wir sind überzeugt, dass eine Kultur lebendig bleibt, wenn sie gekannt, gelebt, geteilt und an künftige Generationen weitergegeben wird.",
+    "identityP3": "Mit unserem Verein möchten wir eine Brücke zwischen unserem kulturellen Erbe und unserem Leben in Deutschland schlagen und zugleich der jungen Generation helfen, ihre Wurzeln besser zu verstehen.",
+    "missionTitle": "Unsere Mission",
+    "missionP1": "Die zentrale Mission von PouaHom Deutschland e. V. ist die Förderung der Baham-Kultur.",
+    "missionP2": "Um diese Mission zu verwirklichen, organisieren und fördern wir insbesondere Treffen und kulturelle Veranstaltungen. Dadurch machen wir unser Erbe sichtbar, stärken die Verbindung zwischen den Mitgliedern und unterstützen die Weitergabe unserer Werte und Traditionen. Unser Engagement ist uneigennützig und gemeinwohlorientiert: Die Mittel des Vereins werden ausschließlich zur Erreichung seiner Ziele eingesetzt.",
+    "openTitle": "Ein offener und verbindender Verein",
+    "openP1": "PouaHom Deutschland e. V. versteht sich vor allem als Raum für Begegnung, Dialog und Weitergabe.",
+    "openP2": "Der Verein ist politisch und konfessionell neutral. Er steht allen offen, die mit der Baham-Kultur verbunden sind oder Interesse daran haben und sich aktiv in das Vereinsleben einbringen möchten.",
+    "openP3": "Wir möchten jedem Menschen ermöglichen, unabhängig von Generation oder Erfahrung, seinen Platz zu finden und am Vereinsleben teilzunehmen.",
+    "factsTitle": "Auf einen Blick",
+    "factFounded": "Gemeinnütziger Verein, gegründet im Jahr 2021",
+    "factLocation": "Sitz in Karlsruhe, Deutschland",
+    "factNeutral": "Politisch und konfessionell neutrale Struktur",
+    "factInclusive": "Offen für alle mit Bezug oder Interesse an der Baham-Kultur",
+    "valuesTitle": "Unsere Werte",
+    "values": {
+      "cultureIdentity": {
+        "title": "Kultur & Identität",
+        "text": "Die Vielfalt der Baham-Kultur bewahren und sichtbar machen sowie zu ihrer Ausstrahlung beitragen."
+      },
+      "transmission": {
+        "title": "Weitergabe",
+        "text": "Unsere Geschichte, Traditionen und Werte an junge Generationen weitergeben, damit unser Erbe lebendig bleibt."
+      },
+      "unitySharing": {
+        "title": "Einheit & Austausch",
+        "text": "Begegnungen schaffen und die Verbindung zwischen den Mitgliedern unserer Gemeinschaft stärken."
+      },
+      "openness": {
+        "title": "Offenheit",
+        "text": "Die Baham-Kultur über die eigene Gemeinschaft hinaus bekannt machen und den Austausch in unserem Umfeld in Deutschland fördern."
+      },
+      "engagement": {
+        "title": "Engagement",
+        "text": "Jede und jeden dazu ermutigen, aktiv am Vereinsleben und an den Projekten mitzuwirken."
+      }
+    },
+    "futureTitle": "Eine lebendige Kultur mit Blick nach vorn",
+    "futureP1": "Unser Erbe zu bewahren bedeutet nicht nur, in die Vergangenheit zu schauen.",
+    "futureP2": "Mit PouaHom Deutschland e. V. möchten wir die Baham-Kultur heute und morgen lebendig halten, indem wir Gelegenheiten zur Begegnung schaffen, Wissen teilen und an die nächsten Generationen weitergeben, was einen wesentlichen Teil unseres Erbes ausmacht.",
+    "finalLine": "Gemeinsam lassen wir die Baham-Kultur in Deutschland leben und geben sie an kommende Generationen weiter."
+  },
+
   "board": {
     "eyebrow": "Organisation",
     "title": "Unser Vorstand",
@@ -72,6 +123,43 @@
     "time": "18:00 Uhr",
     "location": "Wilhelmstraße 47, 76137 Karlsruhe",
     "program": "Alle Treffen"
+  },
+
+  "meetingsPage": {
+    "eyebrow": "Agenda",
+    "title": "Treffen in chronologischer Reihenfolge",
+    "description": "Hier findest du die kommenden Vereinstreffen übersichtlich nach Datum sortiert.",
+    "ruleTitle": "Rhythmus",
+    "ruleText": "Unsere Treffen finden immer am zweiten Samstag des Monats statt.",
+    "timeTitle": "Übliche Uhrzeit",
+    "timeValue": "Beginn um 18:00 Uhr (falls nicht anders angekündigt).",
+    "locationTitle": "Treffpunkt",
+    "timelineTitle": "Nächste Termine",
+    "nextBadge": "Kommend",
+    "timelineDescription": "Vorschau auf die nächsten 8 monatlichen Treffen.",
+    "entryTitle": "Monatliches Treffen {{index}}"
+  },
+
+  "contactPage": {
+    "eyebrow": "PouaHom Deutschland e. V.",
+    "title": "Kontakt",
+    "description": "Du hast Fragen zum Verein oder zu unseren Aktivitäten? Wir sind gerne für dich da.",
+    "quickContact": "Schneller Kontakt",
+    "blockTitle": "Kontaktiere uns",
+    "blockText": "Schreib uns gerne, wenn du Informationen möchtest, an Treffen teilnehmen oder unsere Projekte unterstützen willst.",
+    "emailLabel": "E-Mail",
+    "addressLabel": "Adresse",
+    "registryLabel": "Register",
+    "formEyebrow": "Nachricht",
+    "formTitle": "Schreib uns eine Nachricht",
+    "name": "Name",
+    "namePlaceholder": "Dein Name",
+    "email": "E-Mail",
+    "emailPlaceholder": "dein@email.de",
+    "message": "Nachricht",
+    "messagePlaceholder": "Deine Nachricht...",
+    "send": "Senden",
+    "formHint": "Wir antworten dir so schnell wie möglich."
   },
 
   "news": {

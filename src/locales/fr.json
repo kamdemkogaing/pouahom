@@ -29,6 +29,57 @@
     "more": "En savoir plus"
   },
 
+  "aboutPage": {
+    "eyebrow": "Notre association",
+    "orgName": "PouaHom Deutschland e. V.",
+    "tagline": "Préserver notre culture. Rassembler les générations. Transmettre notre héritage.",
+    "introP1": "PouaHom Deutschland e. V. est une association à but non lucratif créée en 2021 et basée à Karlsruhe, en Allemagne.",
+    "introP2": "Notre association est née d'une volonté commune : préserver, promouvoir et transmettre la culture Baham, tout en créant un espace de rencontre, de partage et de solidarité entre toutes les personnes qui lui sont attachées.",
+    "identityTitle": "Notre identité",
+    "identityP1": "PouaHom Deutschland e. V. rassemble des femmes et des hommes qui partagent un lien avec la culture Baham ou qui souhaitent simplement la découvrir, la soutenir et contribuer à son rayonnement.",
+    "identityP2": "Nous sommes convaincus qu'une culture reste vivante lorsqu'elle est connue, pratiquée, partagée et transmise aux générations futures.",
+    "identityP3": "À travers notre association, nous souhaitons ainsi créer un pont entre notre héritage culturel et notre vie en Allemagne, tout en permettant aux nouvelles générations de mieux connaître leurs racines.",
+    "missionTitle": "Notre mission",
+    "missionP1": "La mission principale de PouaHom Deutschland e. V. est la promotion de la culture Baham.",
+    "missionP2": "Pour concrétiser cette mission, nous organisons et encourageons notamment des rencontres et manifestations culturelles permettant de faire découvrir notre patrimoine, de renforcer les liens entre les membres et de favoriser la transmission de nos valeurs et traditions. Notre engagement repose sur une démarche désintéressée et d'intérêt général : les ressources de l'association sont consacrées exclusivement à la réalisation de ses objectifs.",
+    "openTitle": "Une association ouverte et rassembleuse",
+    "openP1": "PouaHom Deutschland e. V. se veut avant tout un espace de rencontre, de dialogue et de transmission.",
+    "openP2": "L'association est politiquement et confessionnellement neutre. Elle accueille toute personne ayant un lien avec la culture Baham ou manifestant un intérêt pour celle-ci et souhaitant contribuer à la dynamique associative.",
+    "openP3": "Nous voulons permettre à chacun, quelles que soient sa génération ou son expérience, de trouver sa place et de participer à la vie de l'association.",
+    "factsTitle": "Repères clés",
+    "factFounded": "Association à but non lucratif créée en 2021",
+    "factLocation": "Basée à Karlsruhe, en Allemagne",
+    "factNeutral": "Structure politiquement et confessionnellement neutre",
+    "factInclusive": "Ouverte à toute personne liée ou intéressée par la culture Baham",
+    "valuesTitle": "Nos valeurs",
+    "values": {
+      "cultureIdentity": {
+        "title": "Culture & identité",
+        "text": "Préserver et valoriser la richesse de la culture Baham et contribuer à son rayonnement."
+      },
+      "transmission": {
+        "title": "Transmission",
+        "text": "Faire découvrir notre histoire, nos traditions et nos valeurs aux jeunes générations afin que notre patrimoine continue de vivre."
+      },
+      "unitySharing": {
+        "title": "Unité & partage",
+        "text": "Créer des moments de rencontre et renforcer les liens entre les membres de notre communauté."
+      },
+      "openness": {
+        "title": "Ouverture",
+        "text": "Faire connaître la culture Baham au-delà de notre communauté et favoriser les échanges avec notre environnement en Allemagne."
+      },
+      "engagement": {
+        "title": "Engagement",
+        "text": "Encourager chacun à participer activement à la vie et aux projets de l'association."
+      }
+    },
+    "futureTitle": "Une culture vivante, tournée vers l'avenir",
+    "futureP1": "Préserver notre patrimoine ne signifie pas seulement regarder vers le passé.",
+    "futureP2": "Avec PouaHom Deutschland e. V., nous souhaitons faire vivre la culture Baham aujourd'hui et demain, en créant des occasions de nous rencontrer, de partager nos connaissances et de transmettre aux prochaines générations ce qui constitue une partie essentielle de notre héritage.",
+    "finalLine": "Ensemble, faisons vivre la culture Baham en Allemagne et transmettons-la aux générations futures."
+  },
+
   "board": {
     "eyebrow": "Organisation",
     "title": "Notre Bureau",
@@ -72,6 +123,43 @@
     "time": "18 h 00",
     "location": "Wilhelmstraße 47, 76137 Karlsruhe",
     "program": "Voir les réunions"
+  },
+
+  "meetingsPage": {
+    "eyebrow": "Agenda",
+    "title": "Réunions chronologiques",
+    "description": "Retrouvez ici les prochaines réunions de l'association, classées dans l'ordre chronologique.",
+    "ruleTitle": "Fréquence",
+    "ruleText": "Nos réunions ont lieu chaque deuxième samedi du mois.",
+    "timeTitle": "Horaire habituel",
+    "timeValue": "Début à 18 h 00 (sauf indication contraire).",
+    "locationTitle": "Lieu de rencontre",
+    "timelineTitle": "Prochaines dates",
+    "nextBadge": "À venir",
+    "timelineDescription": "Calendrier prévisionnel des 8 prochaines réunions mensuelles.",
+    "entryTitle": "Réunion mensuelle {{index}}"
+  },
+
+  "contactPage": {
+    "eyebrow": "PouaHom Deutschland e. V.",
+    "title": "Contact",
+    "description": "Une question sur l'association ou nos activités ? Nous sommes disponibles pour vous répondre.",
+    "quickContact": "Contact rapide",
+    "blockTitle": "Nous contacter",
+    "blockText": "N'hésitez pas à nous écrire pour obtenir des informations, participer à nos rencontres ou contribuer à nos projets.",
+    "emailLabel": "E-mail",
+    "addressLabel": "Adresse",
+    "registryLabel": "Registre",
+    "formEyebrow": "Message",
+    "formTitle": "Envoyez-nous un message",
+    "name": "Nom",
+    "namePlaceholder": "Votre nom",
+    "email": "E-mail",
+    "emailPlaceholder": "votre@email.com",
+    "message": "Message",
+    "messagePlaceholder": "Votre message...",
+    "send": "Envoyer",
+    "formHint": "Nous vous répondrons dès que possible."
   },
 
   "news": {

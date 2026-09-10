@@ -29,6 +29,57 @@
     "more": "Learn more"
   },
 
+  "aboutPage": {
+    "eyebrow": "Our association",
+    "orgName": "PouaHom Deutschland e. V.",
+    "tagline": "Preserving our culture. Bringing generations together. Passing on our heritage.",
+    "introP1": "PouaHom Deutschland e. V. is a non-profit association founded in 2021 and based in Karlsruhe, Germany.",
+    "introP2": "Our association was born from a shared intention: to preserve, promote and pass on Baham culture while creating a space for connection, exchange and solidarity for everyone who feels linked to it.",
+    "identityTitle": "Our identity",
+    "identityP1": "PouaHom Deutschland e. V. brings together women and men who share a connection with Baham culture or simply wish to discover it, support it and help its influence grow.",
+    "identityP2": "We believe a culture remains alive when it is known, practiced, shared and transmitted to future generations.",
+    "identityP3": "Through our association, we aim to build a bridge between our cultural heritage and our life in Germany, while helping younger generations better understand their roots.",
+    "missionTitle": "Our mission",
+    "missionP1": "The core mission of PouaHom Deutschland e. V. is to promote Baham culture.",
+    "missionP2": "To make this mission concrete, we organize and support cultural gatherings and events that showcase our heritage, strengthen ties between members, and foster the transmission of our values and traditions. Our commitment is selfless and focused on the public good: the association's resources are used exclusively to achieve its objectives.",
+    "openTitle": "An open and unifying association",
+    "openP1": "Above all, PouaHom Deutschland e. V. is a space for meeting, dialogue and transmission.",
+    "openP2": "The association is politically and religiously neutral. It welcomes anyone connected to Baham culture, or anyone interested in it, who wishes to contribute to the association's momentum.",
+    "openP3": "We want everyone, regardless of generation or experience, to find their place and take part in the life of the association.",
+    "factsTitle": "Key facts",
+    "factFounded": "Non-profit association founded in 2021",
+    "factLocation": "Based in Karlsruhe, Germany",
+    "factNeutral": "Politically and religiously neutral organization",
+    "factInclusive": "Open to anyone connected to or interested in Baham culture",
+    "valuesTitle": "Our values",
+    "values": {
+      "cultureIdentity": {
+        "title": "Culture & identity",
+        "text": "Preserving and highlighting the richness of Baham culture and helping it thrive."
+      },
+      "transmission": {
+        "title": "Transmission",
+        "text": "Sharing our history, traditions and values with younger generations so that our heritage continues to live on."
+      },
+      "unitySharing": {
+        "title": "Unity & sharing",
+        "text": "Creating moments of connection and strengthening ties between members of our community."
+      },
+      "openness": {
+        "title": "Openness",
+        "text": "Introducing Baham culture beyond our community and encouraging exchange in our wider environment in Germany."
+      },
+      "engagement": {
+        "title": "Commitment",
+        "text": "Encouraging everyone to actively contribute to the life and projects of the association."
+      }
+    },
+    "futureTitle": "A living culture, looking ahead",
+    "futureP1": "Preserving our heritage does not only mean looking to the past.",
+    "futureP2": "With PouaHom Deutschland e. V., we want Baham culture to live today and tomorrow by creating opportunities to meet, share knowledge and pass on to the next generations what forms an essential part of our heritage.",
+    "finalLine": "Together, let us keep Baham culture alive in Germany and pass it on to future generations."
+  },
+
   "board": {
     "eyebrow": "Organization",
     "title": "Our Board",
@@ -72,6 +123,43 @@
     "time": "6:00 PM",
     "location": "Wilhelmstraße 47, 76137 Karlsruhe",
     "program": "View meetings"
+  },
+
+  "meetingsPage": {
+    "eyebrow": "Schedule",
+    "title": "Meetings in chronological order",
+    "description": "Find our upcoming association meetings listed clearly in chronological order.",
+    "ruleTitle": "Frequency",
+    "ruleText": "Our meetings take place every second Saturday of the month.",
+    "timeTitle": "Usual time",
+    "timeValue": "Starts at 6:00 PM (unless announced otherwise).",
+    "locationTitle": "Meeting location",
+    "timelineTitle": "Upcoming dates",
+    "nextBadge": "Upcoming",
+    "timelineDescription": "Preview of the next 8 monthly meetings.",
+    "entryTitle": "Monthly meeting {{index}}"
+  },
+
+  "contactPage": {
+    "eyebrow": "PouaHom Deutschland e. V.",
+    "title": "Contact",
+    "description": "Questions about the association or our activities? We are happy to hear from you.",
+    "quickContact": "Quick contact",
+    "blockTitle": "Get in touch",
+    "blockText": "Feel free to contact us for information, participation in our meetings, or support for our projects.",
+    "emailLabel": "Email",
+    "addressLabel": "Address",
+    "registryLabel": "Registry",
+    "formEyebrow": "Message",
+    "formTitle": "Send us a message",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "you@email.com",
+    "message": "Message",
+    "messagePlaceholder": "Your message...",
+    "send": "Send",
+    "formHint": "We will reply as soon as possible."
   },
 
   "news": {
