@@ -159,26 +159,26 @@ export default function Board() {
 
       {selectedMember ? (
         <div
-          className={`fixed inset-0 z-50 p-4 transition duration-300 ${
+          className={`fixed inset-0 z-50 overflow-y-auto p-5 sm:p-6 transition duration-300 ${
             isModalVisible
               ? "bg-[#140f0f]/75 opacity-100 backdrop-blur-sm"
               : "bg-[#140f0f]/0 opacity-0 backdrop-blur-none"
           }`}
           onClick={closeModal}
         >
-          <div className="grid h-full place-items-center">
+          <div className="grid min-h-full place-items-center py-1 sm:py-2">
             <article
               role="dialog"
               aria-modal="true"
               aria-label={selectedMember.name}
               onClick={(event) => event.stopPropagation()}
-              className={`relative w-full max-w-2xl overflow-hidden rounded-[30px] border border-white/15 bg-white shadow-2xl transition duration-300 ease-out ${
+              className={`relative max-h-[calc(100dvh-2.5rem)] w-full max-w-2xl overflow-y-auto rounded-3xl border border-white/15 bg-white shadow-2xl transition duration-300 ease-out sm:max-h-[calc(100dvh-3rem)] sm:rounded-[30px] ${
                 isModalVisible
                   ? "translate-y-0 scale-100 opacity-100"
                   : "translate-y-6 scale-95 opacity-0"
               }`}
             >
-              <div className="absolute right-4 top-4 z-20">
+              <div className="absolute right-3 top-3 z-20 sm:right-4 sm:top-4">
                 <button
                   type="button"
                   onMouseDown={(event) => {
@@ -187,7 +187,7 @@ export default function Board() {
                     closeModal();
                   }}
                   onClick={closeModal}
-                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-neutral-200 bg-white text-neutral-500 transition hover:border-[#8f0d0d]/35 hover:text-[#8f0d0d]"
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-neutral-200 bg-white/95 text-neutral-500 shadow-sm transition hover:border-[#8f0d0d]/35 hover:text-[#8f0d0d] sm:h-10 sm:w-10"
                   aria-label={t("board.closeModal")}
                 >
                   <X size={18} />
@@ -195,7 +195,7 @@ export default function Board() {
               </div>
 
               <div className="grid md:grid-cols-[220px_1fr]">
-                <div className="bg-[#e9ece4]">
+                <div className="w-full bg-[#e9ece4] md:h-full">
                   <img
                     src={selectedMember.image}
                     alt={selectedMember.name}
@@ -203,11 +203,11 @@ export default function Board() {
                       event.currentTarget.onerror = null;
                       event.currentTarget.src = "/images/logo/pouahom-logo.jpg";
                     }}
-                    className="h-full w-full object-cover"
+                    className="block h-auto w-full object-contain md:h-full md:object-cover"
                   />
                 </div>
 
-                <div className="p-7 md:p-8">
+                <div className="p-6 sm:p-7 md:p-8">
                   <p
                     className={`text-[11px] font-bold uppercase tracking-[0.2em] text-[#8f0d0d] transition duration-300 ${
                       isModalVisible
