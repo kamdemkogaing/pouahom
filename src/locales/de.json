@@ -12,6 +12,21 @@
     "contact": "Kontakt"
   },
 
+  "cookies": {
+    "eyebrow": "Privatsphäre",
+    "title": "Deine Cookie-Auswahl",
+    "description": "Wir verwenden notwendige Cookies, damit PouaHom zuverlässig funktioniert. Optionale Analyse-Cookies bleiben aus, bis du zustimmst.",
+    "privacy": "Datenschutz lesen",
+    "settings": "Einstellungen",
+    "acceptAll": "Alle akzeptieren",
+    "save": "Auswahl speichern",
+    "close": "Optionale Cookies ablehnen",
+    "necessary": "Notwendige Cookies",
+    "necessaryDescription": "Erforderlich für Sprache, Navigation und grundlegende Funktionen.",
+    "analytics": "Analyse-Cookies",
+    "analyticsDescription": "Helfen uns, die Nutzung der Website anonym zu verstehen."
+  },
+
   "history": {
     "eyebrow": "Unsere Identitaet",
     "title": "Unsere Geschichte",
